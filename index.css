@@ -1,0 +1,83 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    font-size: 20px;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.index{
+    width: 1024px;
+    background-color: rgb(30, 39, 37);
+    margin: 0 auto;
+}
+.full-width{
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+    display: block;
+    box-sizing: border-box;
+}
+
+.header{
+    padding-left: 50px;
+    background-color: rgb(26, 46, 46);
+}
+.header a{
+    font-family: 'Courier New', Courier, monospace;
+}
+.header h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: inherit;
+    float: left;
+}
+.search{
+    float: right;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+.header input [type="search"], .header input [type="submit"]{
+    background-color: aliceblue;
+    height: 30px;
+    width: 300px;
+}
+.header input[type="submit"]{
+    width: 100px;
+    background-color: burlywood;
+}
+.header ul{
+    margin: 20px 0;
+    padding: 0;
+}
+.header ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+.header ul li a{
+    background-color: sandybrown;
+    padding: 15px 20px;
+    float: left;
+    font-size: 25px;
+    font-family: cursive;
+    
+}
+.header ul li a:hover{
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
